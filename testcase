@@ -1,0 +1,12 @@
+f1, A1 = 7.0, 4.0
+f2, A2 = 10.0, 2.0
+f3, A3 = 12.0, 3.0
+f4, A4 = 15.0, 6.0
+f5, A5 = 20.0, 3.0
+signal_A = (A1 * np.cos(2.0 * np.pi * f1 * t)) + (A2 * np.cos(2.0 * np.pi * f2 * t))+(A3 * np.cos(2.0 * np.pi * f3 * t))+(A4 * np.cos(2.0 * np.pi * f4 * t))+(A5 * np.cos(2.0 * np.pi * f5 * t))
+
+f1, A1 = 5 * df, 2.0  # f1 ~ 0.976 Hz
+f2, A2 = 8 * df, 3.0  # f2 = 1.5625 Hz
+
+# Tín hiệu tổng hợp A
+signal_A = (A1 * np.cos(2.0 * np.pi * f1 * t)) + (A2 * np.cos(2.0 * np.pi * f2 * t))

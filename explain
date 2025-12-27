@@ -1,0 +1,8 @@
+Trong hàm DFT
+
+- dòng 42 do tín hiệu thực(real value signal)
+có phổ đối xứng liên hợp 
+X[k]= X*[N-k]
+do đó nửa sau không chứa thông tin mới nên ta chỉ cần giữ k chạy từ 0->N/2-1
+
+-dòng 
